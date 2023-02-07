@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  background-color: #ffff;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  padding: 20px, 36px;
+}
+
+.stats--color {
+  color: #918e9e;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.nav--logo {
+  margin: 15px;
+}
+
+section {
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--photo {
+  align-self: center;
+  width: 40rem;
+}
+
+.hero--header {
+  margin-bottom: 16px;
+}
+
+.hero--text {
+  margin-top: 0;
+}
+
+.card {
+  width: 175px;
+  font-size: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+}
+
+.shopping-cart {
+  display: flex;
+  gap: 15rem;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+.card--stats {
+  margin: 10px;
+  padding: 5px;
+  font-size: larger;
+  /* display: flex;
+  align-items: center; */
+}
+
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 4px;
+  font-weight: bold;
+}
